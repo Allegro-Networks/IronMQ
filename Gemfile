@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+ruby '2.1.2'
+gem 'iron_mq'
+gem 'rake'
+gem 'sinatra'
+gem 'rack-test'
