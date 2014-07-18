@@ -1,6 +1,7 @@
 require 'bundler/setup'
 require 'json'
 require 'sinatra'
+require_relative './src/MessageQueue'
 configure { set :server, :puma }
 
 QUEUE_NAME = 'friday_test_for_reals'
