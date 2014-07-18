@@ -8,6 +8,8 @@ GEM
       iron_core (>= 0.5.1)
     net-http-persistent (2.9.4)
     netrc (0.7.7)
+    puma (2.9.0)
+      rack (>= 1.1, < 2.0)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -31,6 +33,7 @@ PLATFORMS
 DEPENDENCIES
   git_repository
   iron_mq
+  puma
   rack-test
   rake
   sinatra
