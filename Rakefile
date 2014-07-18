@@ -7,9 +7,9 @@ task :ruby_dependencies do
 end
 
 task :test do
-	Dir.glob('./test/*.rb').each do |test|
-		rake_sh 'ruby '+ test
-	end
+	# Dir.glob('./test/*.rb').each do |test|
+	# 	rake_sh 'ruby '+ test
+	# end
 end
 
 task :watch => :ruby_dependencies do 

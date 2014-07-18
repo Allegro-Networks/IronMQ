@@ -8,7 +8,6 @@ class TestPop < Test::Unit::TestCase
 		assert_not_nil(ENV['IRON_MQ_HOST'])
 	end
 	def test_pop
-
 		queue_name = "my_queue"
 		words = "hi #{DateTime.now}"
 
