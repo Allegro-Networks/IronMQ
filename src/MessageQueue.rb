@@ -26,9 +26,13 @@ class MessageQueue
 
 	def pop
 		msg = @queue.get()
-		 
-		msg.delete 
+		
+		if msg.nil?
+			puts "nothing on this queue..."
+		else
+			msg.delete 
 
-		return msg.body
+			return msg.body
+		end
 	end
 end
