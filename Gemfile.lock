@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    git_repository (0.0.11)
     iron_core (1.0.4)
       rest (>= 2.6.4)
     iron_mq (5.0.1)
@@ -28,6 +29,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  git_repository
   iron_mq
   rack-test
   rake

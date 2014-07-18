@@ -1,4 +1,4 @@
-require './ServiceOrchestration'
+require './MessageQueueEndpoint'
 
 $stdout.sync = true
-run ServiceOrchestration
+run MessageQueueEndpoint.rb
