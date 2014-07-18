@@ -10,7 +10,7 @@ post '/bob' do
 	message_queue = MessageQueue.new(QUEUE_NAME)
 	puts "\n ON QUEUE >>>>>>>>>>>>>>>>>>>>>> #{message_queue.pop}\n"
 
-	puts "\n ON PAYLOAD <<<<<<<<<<<<<<<<<<<< #{data = JSON.parse(request.body.read)}"
+	puts "\n ON PAYLOAD <<<<<<<<<<<<<<<<<<<< #{data = request.body.read}"
 end
 
 get '/' do
